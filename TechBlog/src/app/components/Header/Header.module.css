@@ -1,0 +1,34 @@
+.header {
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 6px;
+}
+
+.header__logo {
+    margin: 1.5rem;
+}
+
+.header__logo a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: rgb(0, 180, 0);
+}
+
+.header__nav {
+    margin: 1.5rem;
+}
+
+.header__nav a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: rgb(0, 180, 0);
+    font-size: 1.1rem;
+    transition: color 0.2s;
+    
+    &&:hover {
+        color: rgb(0, 100, 0);
+    }
+}

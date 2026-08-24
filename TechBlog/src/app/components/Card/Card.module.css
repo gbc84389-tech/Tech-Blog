@@ -1,0 +1,50 @@
+.Card {
+    text-decoration: none;
+    color: rgb(0, 180, 0);
+}
+
+.Card__container {
+    background-color: rgb(60, 60, 60);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card__container:hover {
+    transform: scale(1.01);
+}
+
+.Card__container img {
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.Card__title {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.Card__descricao {
+    color: black;
+    font-size: 1.3rem;
+    padding: 1rem 0 0 0;
+    text-align: center;
+}
+
+.Card__autor {
+    padding: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.Card__date {
+    padding: 0 0 1rem 0;
+    font-size: 1.1rem;
+}
+
+.Card__poster {
+    flex: 0;
+}

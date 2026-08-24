@@ -1,0 +1,17 @@
+.Sobre__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sobre__titulo {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.Sobre__desc {
+    font-size: 1.5rem;
+    padding: 3rem;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.Detalhe__container {
+    margin: 1rem;
+}
+
+.Detalhe__conteudo {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.Detalhe__autor {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Detalhe__data {
+    font-size: 1.1rem;
+}
