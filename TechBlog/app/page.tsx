@@ -1,7 +1,7 @@
-import Grid from "./components/Grid";
-import ArtigosPrincipal from "./lib/ArtigosPrincipal"
-import Title from "./components/Title";
-import Sobre from "./components/Sobre";
+import Grid from "@/app/components/Grid";
+import ArtigosPrincipal from "@/app/lib/ArtigosPrincipal"
+import Title from "@/app/components/Title";
+import Sobre from "@/app/components/Sobre";
 
 export default function Home() {
   return (
