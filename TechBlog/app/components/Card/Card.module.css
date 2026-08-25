@@ -10,8 +10,9 @@
     transition: transform 0.2s;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    min-height: 600px;
 }
 
 .Card__container:hover {
