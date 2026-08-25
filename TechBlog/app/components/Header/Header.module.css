@@ -19,6 +19,7 @@
 }
 
 .header__nav {
+    display: flex;
     margin: 0;
 }
 
@@ -28,8 +29,57 @@
     color: rgb(0, 180, 0);
     font-size: 1.1rem;
     transition: color 0.2s;
-    
-    &&:hover {
-        color: rgb(0, 100, 0);
+}
+
+.header__nav a:hover {
+    color: rgb(0, 100, 0);
+}
+
+.header__hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: rgb(0, 180, 0);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/* TELA PEQUENA */
+@media (max-width: 700px) {
+
+    .header {
+        position: relative;
+        padding: 1rem;
+    }
+
+    .header__logo a {
+        font-size: 2rem;
+    }
+
+    .header__hamburger {
+        display: block;
+    }
+
+    .header__nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(60, 60, 60);
+        flex-direction: column;
+        padding: 1rem 0;
+        z-index: 10;
+    }
+
+    .header__navAberto {
+        display: flex;
+    }
+
+    .header__nav a {
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
     }
 }
